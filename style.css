@@ -1,0 +1,333 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #4DA6FF;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: white;
+    width: 150px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+
+}
+
+.logo p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header h1 {
+    color: white;
+    margin: 10px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    min-height: 350px;
+}
+
+.hero-image {
+    background-color: #5E6B73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 20%;
+    height: 308px;
+    object-fit: cover;
+}
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.hero-content {
+    width: 65%;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.hero-content h2 {
+    font-size: 30px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background-color: #FF8C42;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.featured {
+    text-align: center;
+    padding: 30px;
+}
+
+.featured h2 {
+    color: #5E6B73;
+}
+
+.adventure-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    background-color: #4DA6FF;
+    color: white;
+    width: 220px;
+    height: 130px;
+    display:s flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card h3{
+    margin: 50px;
+}
+.about{
+    padding: 30px 50px;
+}
+
+footer {
+    background-color: #4DA6FF;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}.contact {
+    padding: 30px;
+}
+
+.contact h2 {
+    color: #5E6B73;
+}
+
+.contact h3 {
+    color: #5E6B73;
+    margin-top: 25px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    background-color: #FF8C42;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}.fees {
+    padding: 30px 50px;
+}
+
+.fees h2 {
+    color: #5E6B73;
+    margin-bottom: 15px;
+}
+
+.fees label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.fees select,
+.fees input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.fees button {
+    display: block;
+    background-color: #FF8C42;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}.packages {
+    padding: 40px;
+    text-align: center;
+}
+
+.packages h2 {
+    color: #5E6B73;
+    margin-bottom: 15px;
+}
+
+.package-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.package-card {
+    background-color: #4DA6FF;
+    color: white;
+    width: 250px;
+    min-height: 200px;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.package-card h3 {
+    margin-bottom: 15px;
+}
+
+.package-card p {
+    line-height: 1.5;
+}
+
+.package-card .button {
+    display: inline-block;
+    background-color: #FF8C42;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}.activities {
+    padding: 40px;
+    text-align: center;
+}
+
+.activities h2 {
+    color: #5E6B73;
+    margin-bottom: 15px;
+}
+
+.activity-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.activity-card {
+    background-color: #4DA6FF;
+    color: white;
+    width: 250px;
+    min-height: 180px;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.activity-card h3 {
+    margin-bottom: 15px;
+}
+
+.activity-card p {
+    line-height: 1.5;
+}.individual-package {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.individual-package h2 {
+    color: #5E6B73;
+    text-align: center;
+}
+
+.individual-package .price {
+    color: #FF8C42;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.individual-package h3 {
+    color: #5E6B73;
+    margin-top: 25px;
+}
+
+.individual-package p {
+    line-height: 1.6;
+}
+
+.individual-package li {
+    margin-bottom: 10px;
+}
+
+.package-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.package-buttons .button {
+    margin: 10px;
+}
+…
